@@ -1,0 +1,120 @@
+#container {
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+/* zdefiniowanie wielkości kwadratów */
+.square {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 4px solid white;
+    box-sizing: border-box;
+}
+
+/* Zdefiniowanie wielkości i położenia koła w kwadracie */
+.circle {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+
+/* zdefiniowanie położenia i koloru tła kolejnych kwadratów */
+#inner_1 {
+    top: 0px;
+    left: 0px;
+    background-color: red;
+}
+
+/* zdefiniowanie koloru tła kolejnych kół */
+#circle_1 {
+    background-color: aquamarine;
+}
+
+#inner_2 {
+    top: 0px;
+    left: 200px;
+    background-color: blue;
+}
+
+#circle_2 {
+    background-color: darkgreen;
+}
+
+#inner_3 {
+    top: 0px;
+    left: 400px;
+    background-color: green;
+}
+
+#circle_3 {
+    background-color: blueviolet;
+}
+
+#inner_4 {
+    top: 200px;
+    left: 0px;
+    background-color: green;
+}
+
+#circle_4 {
+    background-color: blueviolet;
+}
+
+#inner_5 {
+    top: 200px;
+    left: 200px;
+    background-color: green;
+}
+
+#circle_5 {
+    background-color: blueviolet;
+}
+
+#inner_6 {
+    top: 200px;
+    left: 400px;
+    background-color: green;
+}
+
+#circle_6 {
+    background-color: blueviolet;
+}
+
+/* zmiana jedntek dla sprawdzenia, chociaż dla układu 3 linii i kolumn nie są to najlepsze jednostki */
+#inner_7 {
+    top: 66.666%;
+    left: 0%;
+    background-color: green;
+}
+
+#circle_7 {
+    background-color: pink;
+}
+
+#inner_8 {
+    top: 66.666%;
+    left: 33.333%;
+    background-color: green;
+}
+
+#circle_8 {
+    background-color: blueviolet;
+}
+
+#inner_9 {
+    top: 66.666%;
+    left: 66.666%;
+    background-color: blue;
+}
+
+#circle_9 {
+    background-color: yellow;
+}
