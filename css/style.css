@@ -38,7 +38,7 @@
 
 /* zdefiniowanie koloru tła kolejnych kół */
 #circle_1 {
-    background-color: aquamarine;
+    background-color: pink;
 }
 
 #inner_2 {
@@ -48,7 +48,7 @@
 }
 
 #circle_2 {
-    background-color: darkgreen;
+    background-color: gray;
 }
 
 #inner_3 {
@@ -64,60 +64,60 @@
 #inner_4 {
     top: 200px;
     left: 0px;
-    background-color: green;
+    background-color: yellow;
 }
 
 #circle_4 {
-    background-color: blueviolet;
+    background-color: green;
 }
 
 #inner_5 {
     top: 200px;
     left: 200px;
-    background-color: green;
+    background-color: black;
 }
 
 #circle_5 {
-    background-color: blueviolet;
+    background-color: red;
 }
 
 #inner_6 {
     top: 200px;
     left: 400px;
-    background-color: green;
+    background-color: orange;
 }
 
 #circle_6 {
-    background-color: blueviolet;
+    background-color: blue;
 }
 
 /* zmiana jedntek dla sprawdzenia, chociaż dla układu 3 linii i kolumn nie są to najlepsze jednostki */
 #inner_7 {
     top: 66.666%;
     left: 0%;
-    background-color: green;
+    background-color: blueviolet;
 }
 
 #circle_7 {
-    background-color: pink;
+    background-color: orange;
 }
 
 #inner_8 {
     top: 66.666%;
     left: 33.333%;
-    background-color: green;
+    background-color: grey;
 }
 
 #circle_8 {
-    background-color: blueviolet;
+    background-color: yellow;
 }
 
 #inner_9 {
     top: 66.666%;
     left: 66.666%;
-    background-color: blue;
+    background-color: pink;
 }
 
 #circle_9 {
-    background-color: yellow;
+    background-color: black;
 }
